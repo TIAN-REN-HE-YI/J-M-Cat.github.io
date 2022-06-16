@@ -1,5 +1,4 @@
 module.exports = {
-    base: "/koa-docs/",
     head: [
         ['link', { rel: 'icon', href: '/images/favicon.ico' }]
     ],
