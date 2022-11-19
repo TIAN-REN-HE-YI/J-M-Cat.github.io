@@ -1,0 +1,22 @@
+.body {
+    width: 92.5%;
+    background: #f3f5f7;
+    border-left: 8px solid #42b983;
+    padding: 10px 24px;
+}
+
+.body .content {
+    height: 100%;
+}
+
+.content span {
+    line-height: 30px;
+}
+
+.content .title {
+    font-weight: 600;
+}
+
+#green {
+    color: #42b983;
+}
