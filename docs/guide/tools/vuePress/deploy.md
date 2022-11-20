@@ -45,4 +45,13 @@ cd -
     "deploy": "bash deploy.sh"
 },
 ```
-最后执行`npm run deploy`
+最后执行`npm run deploy`，出现以下效果就部署成功了。
+```
+   ╭───────────────────────────────────────────────────────────────╮
+   │                                                               │
+   │      New major version of npm available! 6.14.4 → 9.1.2       │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v9.1.2   │
+   │               Run npm install -g npm to update!               │
+   │                                                               │
+   ╰───────────────────────────────────────────────────────────────╯
+```
