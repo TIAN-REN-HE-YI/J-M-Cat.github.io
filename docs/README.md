@@ -1,9 +1,10 @@
 ---
 home: true
-heroImage: /images/web.png
-heroText: WWW.BUG.COM
-tagline: 愿世界，再无BUG
-actionText: 冲吧！勇士
+heroImage: /images/bj.jpg
+heroText: 
+tagline:  More Than Code
+actionText: 
 actionLink: /guide/index/
-footer: Copyright ©2022-TIAN-REN-HE-YI
+features:
+footer: TIAN_REN_HE_YI | Copyright © 2022
 ---

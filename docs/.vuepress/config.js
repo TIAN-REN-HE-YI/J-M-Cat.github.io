@@ -28,7 +28,7 @@ module.exports = {
             {
                 text: 'Tools',
                 items: [
-                    { text: 'Git', link: '' },
+                    { text: 'Git', link: '/guide/tools/git/introduce' },
                     { text: 'VuePress', link: '/guide/tools/vuePress/introduce/' },
                 ]
             },
@@ -47,6 +47,10 @@ module.exports = {
                     ],
                 },
                 { title: '部署', path: '/guide/tools/vuePress/deploy' }
+            ],
+            '/guide/tools/git/': [
+                { title: '起步', path: '/guide/tools/git/introduce' },
+                { title: '创建仓库', path: '/guide/tools/git/create' },
             ]
         },
     }
