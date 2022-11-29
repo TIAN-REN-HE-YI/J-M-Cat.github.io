@@ -51,6 +51,7 @@ module.exports = {
             '/guide/tools/git/': [
                 { title: '起步', path: '/guide/tools/git/introduce' },
                 { title: '创建仓库', path: '/guide/tools/git/create' },
+                { title: '常用命令', path: '/guide/tools/git/command' },
             ]
         },
     }

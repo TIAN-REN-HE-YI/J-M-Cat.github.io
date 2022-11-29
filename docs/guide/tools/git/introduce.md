@@ -12,9 +12,9 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 
 [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
-打开`git bash`输入以下命令，查看安装成功
+打开`git bash`输入以下命令，查看安装结果
 
 ```
 git --version  // 查看版本号
-输出: git version 1.7.1
+git version 1.7.1 // 输出版本号
 ```
