@@ -78,7 +78,7 @@
 #container p{
   text-align:center;
   font-size:7em;
-  margin:20px 0 20px 0; 
+  /* margin:20px 0 20px 0;  */
   display: inline-block;
 }
 
@@ -118,19 +118,19 @@
   color: #ffffff;
 }
 
-/* #container p:nth-child(5) a{
+#container p:nth-child(4) a{
   -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
   -moz-animation: neon5 1.5s ease-in-out infinite alternate;
   animation: neon5 1.5s ease-in-out infinite alternate; 
   color: #ffffff;
-} */
+}
 
-#container p:nth-child(4) a{
+/* #container p:nth-child(4) a{
   -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
   -moz-animation: neon6 1.5s ease-in-out infinite alternate;
   animation: neon6 1.5s ease-in-out infinite alternate;
   color: #ffffff;
-}
+} */
 
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
