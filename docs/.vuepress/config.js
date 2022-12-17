@@ -52,6 +52,9 @@ module.exports = {
                 { title: '起步', path: '/guide/tools/git/introduce' },
                 { title: '创建仓库', path: '/guide/tools/git/create' },
                 { title: '常用命令', path: '/guide/tools/git/command' },
+                { title: '合并分支', path: '/guide/tools/git/merge' },
+                { title: '创建分支', path: '/guide/tools/git/checkout' },
+                { title: '回退版本', path: '/guide/tools/git/reset' },
             ]
         },
     }
