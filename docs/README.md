@@ -21,10 +21,6 @@
 
 <style>
 /*setup*/
-*{
-  margin: 0;
-  padding: 0;
-}
 
 @font-face {
   font-family: 'Monoton';
@@ -71,7 +67,7 @@
 #container{
 
   margin:auto;
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 /*neeeeoooon*/
