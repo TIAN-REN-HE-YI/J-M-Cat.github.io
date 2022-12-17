@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/favicon.ico' }]
     ],
-    title: "TIAN-REN-HE-YI（学习笔记）",
+    title: "🍑🍉🍊🍇🍈🍍🍒🍋",
     description: "",
     themeConfig: {
         nav: [
