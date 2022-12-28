@@ -21,8 +21,8 @@ module.exports = {
             {
                 text: '后端',
                 items: [
-                    { text: 'Nest', link: '' },
-                    { text: 'MongoDB', link: '' },
+                    { text: 'egg', link: '' },
+                    { text: 'mySql', link: '/guide/back/mySql/base' },
                 ]
             },
             {
@@ -35,6 +35,17 @@ module.exports = {
             { text: 'GitHub', link: 'https://github.com/J-M-Cat' },
         ],
         sidebar: {
+            '/guide/back/mySql/': [
+                { title: '基础篇', path: '/guide/back/mySql/base' },
+            ],
+            '/guide/tools/git/': [
+                { title: '起步', path: '/guide/tools/git/introduce' },
+                { title: '创建仓库', path: '/guide/tools/git/create' },
+                { title: '常用命令', path: '/guide/tools/git/command' },
+                { title: '合并分支', path: '/guide/tools/git/merge' },
+                { title: '创建分支', path: '/guide/tools/git/checkout' },
+                { title: '回退版本', path: '/guide/tools/git/reset' },
+            ],
             '/guide/tools/vuePress/': [
                 { title: '介绍', path: '/guide/tools/vuePress/introduce' },
                 { title: '安装', path: '/guide/tools/vuePress/start' },
@@ -48,14 +59,6 @@ module.exports = {
                 },
                 { title: '部署', path: '/guide/tools/vuePress/deploy' }
             ],
-            '/guide/tools/git/': [
-                { title: '起步', path: '/guide/tools/git/introduce' },
-                { title: '创建仓库', path: '/guide/tools/git/create' },
-                { title: '常用命令', path: '/guide/tools/git/command' },
-                { title: '合并分支', path: '/guide/tools/git/merge' },
-                { title: '创建分支', path: '/guide/tools/git/checkout' },
-                { title: '回退版本', path: '/guide/tools/git/reset' },
-            ]
         },
     }
 };
