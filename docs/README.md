@@ -1,19 +1,19 @@
 <div id="container">
 
   <p><a href="#">
-    TIAN
+    学
   </a></p>
 
   <p><a href="#">
-    REN
+    无
   </a></p>
 
   <p><a href="#">
-    HE
+    止
   </a></p>
 
   <p><a href="#">
-    YI
+    境
   </a></p>
 
 </div>
@@ -74,8 +74,15 @@
 #container p{
   text-align:center;
   font-size:7em;
-  /* margin:20px 0 20px 0;  */
+  margin-right: 60px;
   display: inline-block;
+}
+#container p:nth-child(1) {
+    margin-left: 30px;
+}
+
+#container p:nth-child(4) {
+    margin-right: 0px;
 }
 
 #container a{

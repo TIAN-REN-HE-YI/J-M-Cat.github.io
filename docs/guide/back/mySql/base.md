@@ -242,3 +242,158 @@ DROP TABLE [IF EXISTS] 表名;
 ```
 TRUNCATE TABLE 表名;
 ```
+
+## DML添加数据
+
+**给指定字段添加数据**
+
+```
+INSERT INTO 表名 (字段1, 字段2, ...) VALUES(值1, 值2, ...);
+```
+
+**给全部字段添加数据**
+
+```
+INSERT INTO 表名 VALUES(值1, 值2, ...);
+```
+
+**批量添加数据**
+
+```
+INSERT INTO 表名 (字段1, 字段2, ...) VALUES(值1, 值2, ...),(值1, 值2, ...),(值1, 值2, ...);
+
+
+INSERT INTO 表名 VALUES(值1, 值2, ...),(值1, 值2, ...),(值1, 值2, ...);
+```
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>1. 插入数据时，指定字段的顺序需要与值的顺序一一对应。</span></br>
+        <span>2. 字符串与日期型数据应包含在引号中。</span></br>
+        <span>3. 插入数据大小，应该在字段规定的范围内。</span>
+    </div>
+</div>
+
+## DML修改数据
+
+**修改数据**
+
+```
+UPDATE 表名 SET 字段1=值1, 字段2=值2, ... [WHERE 条件];
+```
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>where条件可以有，也可以没有；如果没有，则会修改整张表的所有数据。</span>
+    </div>
+</div>
+
+## DML删除数据
+
+**删除数据**
+
+```
+DELETE FROM 表名 [WHERE 条件];
+```
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>1. where条件可以有，也可以没有；如果没有，则会删除整张表的所有数据。</span></br>
+        <span>2. 不能删除某一个字段的值。</span>
+    </div>
+</div>
+
+## DQL编写顺序
+
+![图片alt](./img/tu12.png "选择版本")
+
+## DQL基本查询
+
+**查询多个字段**
+
+```
+SEECT 字段1, 字段2, ... FROM 表名;
+```
+
+**查询所有字段**
+
+```
+SELECT * FROM 表名;
+```
+
+**设置别名**
+
+```
+SEECT 字段1[AS 别名1], 字段2[AS 别名2], ... FROM 表名;
+```
+
+**查询不重复内容**
+
+```
+SELECT DISTINCT 字段 FROM 表名; 
+```
+
+## DQL条件查询
+
+```
+SELECT 字段 FROM 表名 WHERE 条件;
+```
+
+**运算符**
+
+![图片alt](./img/tu10.png "选择版本")
+
+## DQL聚合函数
+
+```
+SELECT 聚合函数(字段) FROM 表名;
+```
+
+**常见聚合函数**
+
+![图片alt](./img/tu11.png "选择版本")
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>null值不参与聚合函数运算</span>
+    </div>
+</div>
+
+## DQL分组查询
+
+```
+SELECT 字段 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组后过滤条件];
+```
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>执行顺序：where > 聚合函数 > having</span></br>
+        <span>分组之后，查询的字段一般为聚合函数和分组字段，查询其他字段无任何意义</span>
+    </div>
+</div>
+
+## DQL排序查询
+
+```
+SELECT 字段名 FROM 表名 ORDER BY 字段1 排序方式1, 字段2 排序方式2;
+```
+
+## DQL分页查询
+
+```
+SELECT 字段名 FROM 表名 LIMIT 起始索引,查询记录数;
+```
+
+<div class="body">
+    <div class="content">
+        <span class="title">注意</span><br/>
+        <span>起始索引从0开始，起始索引 =（页码-1）* 每页显示记录数</span></br>
+        <span>不同的数据库有不同的实现，MySQL中是limit</span></br>
+        <span>如果查询的是第一页数据，起始索引可以省略</span>
+    </div>
+</div>
