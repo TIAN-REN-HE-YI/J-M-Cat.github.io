@@ -100,9 +100,9 @@
 }
 
 #container p:nth-child(2) a{
-  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-  animation: neon2 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
   color: #ffffff;
 }
 
@@ -115,16 +115,16 @@
 } */
 
 #container p:nth-child(3) a{
-  -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon4 1.5s ease-in-out infinite alternate;
-  animation: neon4 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
   color: #ffffff;
 }
 
 #container p:nth-child(4) a{
-  -webkit-animation: neon5 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon5 1.5s ease-in-out infinite alternate;
-  animation: neon5 1.5s ease-in-out infinite alternate; 
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate; 
   color: #ffffff;
 }
 
@@ -138,24 +138,24 @@
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+    text-shadow: 0 0 10px #dec674,
+               0 0 20px  #dec674,
+               0 0 30px  #dec674,
+               0 0 40px  #dec674,
+               0 0 70px  #dec674,
+               0 0 80px  #dec674,
+               0 0 100px #dec674,
+               0 0 150px #dec674;
   }
   to {
-    text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+    text-shadow: 0 0 5px #dec674,
+               0 0 10px #dec674,
+               0 0 15px #dec674,
+               0 0 20px #dec674,
+               0 0 35px #dec674,
+               0 0 40px #dec674,
+               0 0 50px #dec674,
+               0 0 75px #dec674;
   }
 }
 
@@ -277,24 +277,24 @@
 /*glow for mozilla*/
 @-moz-keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+    text-shadow: 0 0 10px #dec674,
+               0 0 20px  #dec674,
+               0 0 30px  #dec674,
+               0 0 40px  #dec674,
+               0 0 70px  #dec674,
+               0 0 80px  #dec674,
+               0 0 100px #dec674,
+               0 0 150px #dec674;
   }
   to {
-    text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+    text-shadow: 0 0 5px #dec674,
+               0 0 10px #dec674,
+               0 0 15px #dec674,
+               0 0 20px #dec674,
+               0 0 35px #dec674,
+               0 0 40px #dec674,
+               0 0 50px #dec674,
+               0 0 75px #dec674;
   }
 }
 
@@ -416,24 +416,24 @@
 /*glow*/
 @keyframes neon1 {
   from {
-    text-shadow: 0 0 10px #fff,
-               0 0 20px  #fff,
-               0 0 30px  #fff,
-               0 0 40px  #FF1177,
-               0 0 70px  #FF1177,
-               0 0 80px  #FF1177,
-               0 0 100px #FF1177,
-               0 0 150px #FF1177;
+    text-shadow: 0 0 10px #dec674,
+               0 0 20px  #dec674,
+               0 0 30px  #dec674,
+               0 0 40px  #dec674,
+               0 0 70px  #dec674,
+               0 0 80px  #dec674,
+               0 0 100px #dec674,
+               0 0 150px #dec674;
   }
   to {
-    text-shadow: 0 0 5px #fff,
-               0 0 10px #fff,
-               0 0 15px #fff,
-               0 0 20px #FF1177,
-               0 0 35px #FF1177,
-               0 0 40px #FF1177,
-               0 0 50px #FF1177,
-               0 0 75px #FF1177;
+    text-shadow: 0 0 5px #dec674,
+               0 0 10px #dec674,
+               0 0 15px #dec674,
+               0 0 20px #dec674,
+               0 0 35px #dec674,
+               0 0 40px #dec674,
+               0 0 50px #dec674,
+               0 0 75px #dec674;
   }
 }
 
