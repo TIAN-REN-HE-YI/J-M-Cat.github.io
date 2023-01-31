@@ -382,7 +382,7 @@ SELECT 字段 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组
 ```
 SELECT 字段名 FROM 表名 ORDER BY 字段1 排序方式1, 字段2 排序方式2;
 ```
-
+正序：`esc` 倒序：`desc`
 ## DQL分页查询
 
 ```
@@ -392,8 +392,55 @@ SELECT 字段名 FROM 表名 LIMIT 起始索引,查询记录数;
 <div class="body">
     <div class="content">
         <span class="title">注意</span><br/>
-        <span>起始索引从0开始，起始索引 =（页码-1）* 每页显示记录数</span></br>
-        <span>不同的数据库有不同的实现，MySQL中是limit</span></br>
-        <span>如果查询的是第一页数据，起始索引可以省略</span>
+        <span>起始索引从0开始，起始索引 =（页码-1）* 每页显示记录数。</span></br>
+        <span>不同的数据库有不同的实现，MySQL中是limit。</span></br>
+        <span>如果查询的是第一页数据，起始索引可以省略。</span>
     </div>
 </div>
+
+## DCL用户管理
+
+**查询用户**
+
+```
+USE mysql;
+SELECT * FROM user;
+```
+
+**创建用户**
+
+```
+CREATE USER '用户名@主机名' IDENTIFIED BY '密码';
+```
+
+**修改用户密码**
+
+```
+ALTER USER '用户名@主机名' IDENTIFIED WITH mysql_native_password BY '新密码';
+```
+
+**删除用户**
+
+```
+DROP USER '用户名@主机名';
+```
+
+## DCL权限控制
+
+**查询权限**
+
+```
+SHOW GRANTS FOR '用户名@主机名';
+```
+
+**授予权限**
+
+```
+GRANT 权限列表 ON 数据库名.表名 TO '用户名@主机名';
+```
+
+**撤销权限**
+
+```
+REVOKE 权限列表 ON 数据库名.表名 FROM '用户名@主机名';
+```
