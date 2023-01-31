@@ -1,4 +1,4 @@
-<div class="body">
+<div class="body-div">
     <div class="g-wrap rl">
         <h2>青玉案·元夕</h2>
         <p>东风夜放花千树</p>
@@ -7,7 +7,7 @@
         <p>凤箫声动 玉壶光转</p>
         <p>一夜鱼龙舞</p>
         <p>蛾儿雪柳黄金缕</p>
-        <p>月笑语盈盈暗香去</p>
+        <p>笑语盈盈暗香去</p>
         <p>众里寻他千百度</p>
         <p>蓦然回首</p>
         <p>那人却在灯火阑珊处</p>
@@ -17,7 +17,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 
-.body {
+.body-div {
     width: 100%;
     height: 100%;
     display: flex;
