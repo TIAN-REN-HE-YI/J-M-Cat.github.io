@@ -14,8 +14,20 @@
     </div>
 </div>
 
+<audio id="audio" controls="controls" preload="load" autoplay="autoplay">
+    <source id="mp3" src="/images/music.mp3">
+</audio>    
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
+
+.site-name {
+    font-family: 'Long Cang', cursive;
+}
+
+#audio {
+    display:none;
+}
 
 .body-div {
     width: 100%;
@@ -24,13 +36,13 @@
     font-family: 'Long Cang', cursive;
 }
 
-h2 {
+.body-div h2 {
     font-size: 42px;
     padding: 0 10px;
     border: 0px;
 }
 
-p {
+.body-div  p {
     font-size: 28px;
     line-height: 2;
 }
@@ -39,5 +51,11 @@ p {
     margin-top: 20%;
     margin-left: -16%;
     writing-mode: vertical-rl;
+    text-align:center;
 }
+
+.rl p:nth-child(2n-1) {
+    color: #802a2a
+}
+
 </style>
