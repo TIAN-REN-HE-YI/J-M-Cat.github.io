@@ -2,7 +2,7 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/favicon.ico' }]
     ],
-    title: "長 樂",
+    title: "oMa",
     description: "",
     themeConfig: {
         nav: [
