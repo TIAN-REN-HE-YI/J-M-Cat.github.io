@@ -1,1 +1,0 @@
-# oMa-oMa.github.io
